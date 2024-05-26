@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58EDE6EB2C0325EF005086EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EDE6EA2C0325EF005086EF /* ContentView.swift */; };
+		58EDE6ED2C0325F1005086EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EDE6EC2C0325F1005086EF /* Assets.xcassets */; };
+		58EDE6F02C0325F1005086EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EDE6EF2C0325F1005086EF /* Preview Assets.xcassets */; };
+		58EDE6F72C03262D005086EF /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EDE6F62C03262D005086EF /* IconButton.swift */; };
+		58EDE6F92C032644005086EF /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EDE6F82C032644005086EF /* ARManager.swift */; };
+		58EDE6FB2C03267C005086EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EDE6FA2C03267C005086EF /* ViewController.swift */; };
+		58EDE6FD2C03269A005086EF /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EDE6FC2C03269A005086EF /* ARViewController.swift */; };
+		58EDE6FF2C0326B3005086EF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EDE6FE2C0326B3005086EF /* Constants.swift */; };
+		58EDE7012C0326D2005086EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EDE7002C0326D2005086EF /* AppDelegate.swift */; };
+		58EDE7032C032704005086EF /* DrawingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EDE7022C032704005086EF /* DrawingService.swift */; };
+		58EDE70D2C032C93005086EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EDE70B2C032C93005086EF /* Main.storyboard */; };
+		58EDE7162C033B0D005086EF /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 58EDE7142C033B0D005086EF /* Explosion.sks */; };
+		58EDE7172C033B0D005086EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EDE7152C033B0D005086EF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58EDE6E52C0325EF005086EF /* nano2-cube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nano2-cube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EDE6EA2C0325EF005086EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58EDE6EC2C0325F1005086EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58EDE6EF2C0325F1005086EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58EDE6F62C03262D005086EF /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		58EDE6F82C032644005086EF /* ARManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARManager.swift; sourceTree = "<group>"; };
+		58EDE6FA2C03267C005086EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58EDE6FC2C03269A005086EF /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		58EDE6FE2C0326B3005086EF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		58EDE7002C0326D2005086EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58EDE7022C032704005086EF /* DrawingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingService.swift; sourceTree = "<group>"; };
+		58EDE70C2C032C93005086EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Nano/WandARaw/WandARaw/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58EDE7142C033B0D005086EF /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		58EDE7152C033B0D005086EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58EDE6E22C0325EF005086EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58EDE6DC2C0325EF005086EF = {
+			isa = PBXGroup;
+			children = (
+				58EDE7142C033B0D005086EF /* Explosion.sks */,
+				58EDE7152C033B0D005086EF /* Assets.xcassets */,
+				58EDE6E72C0325EF005086EF /* nano2-cube */,
+				58EDE6E62C0325EF005086EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58EDE6E62C0325EF005086EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58EDE6E52C0325EF005086EF /* nano2-cube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58EDE6E72C0325EF005086EF /* nano2-cube */ = {
+			isa = PBXGroup;
+			children = (
+				58EDE7062C032732005086EF /* Manager */,
+				58EDE7072C032740005086EF /* AR */,
+				58EDE7052C03271E005086EF /* View */,
+				58EDE7082C032754005086EF /* Constants */,
+				58EDE7042C032715005086EF /* Service */,
+				58EDE7002C0326D2005086EF /* AppDelegate.swift */,
+				58EDE6EC2C0325F1005086EF /* Assets.xcassets */,
+				58EDE70B2C032C93005086EF /* Main.storyboard */,
+				58EDE6EE2C0325F1005086EF /* Preview Content */,
+			);
+			path = "nano2-cube";
+			sourceTree = "<group>";
+		};
+		58EDE6EE2C0325F1005086EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58EDE6EF2C0325F1005086EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58EDE7042C032715005086EF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				58EDE7022C032704005086EF /* DrawingService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		58EDE7052C03271E005086EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58EDE6F62C03262D005086EF /* IconButton.swift */,
+				58EDE6EA2C0325EF005086EF /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58EDE7062C032732005086EF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				58EDE6F82C032644005086EF /* ARManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		58EDE7072C032740005086EF /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				58EDE6FC2C03269A005086EF /* ARViewController.swift */,
+				58EDE6FA2C03267C005086EF /* ViewController.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		58EDE7082C032754005086EF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				58EDE6FE2C0326B3005086EF /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58EDE6E42C0325EF005086EF /* nano2-cube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58EDE6F32C0325F1005086EF /* Build configuration list for PBXNativeTarget "nano2-cube" */;
+			buildPhases = (
+				58EDE6E12C0325EF005086EF /* Sources */,
+				58EDE6E22C0325EF005086EF /* Frameworks */,
+				58EDE6E32C0325EF005086EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nano2-cube";
+			productName = "nano2-cube";
+			productReference = 58EDE6E52C0325EF005086EF /* nano2-cube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58EDE6DD2C0325EF005086EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					58EDE6E42C0325EF005086EF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 58EDE6E02C0325EF005086EF /* Build configuration list for PBXProject "nano2-cube" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58EDE6DC2C0325EF005086EF;
+			productRefGroup = 58EDE6E62C0325EF005086EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58EDE6E42C0325EF005086EF /* nano2-cube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58EDE6E32C0325EF005086EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EDE6F02C0325F1005086EF /* Preview Assets.xcassets in Resources */,
+				58EDE7162C033B0D005086EF /* Explosion.sks in Resources */,
+				58EDE6ED2C0325F1005086EF /* Assets.xcassets in Resources */,
+				58EDE70D2C032C93005086EF /* Main.storyboard in Resources */,
+				58EDE7172C033B0D005086EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58EDE6E12C0325EF005086EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EDE7012C0326D2005086EF /* AppDelegate.swift in Sources */,
+				58EDE7032C032704005086EF /* DrawingService.swift in Sources */,
+				58EDE6FB2C03267C005086EF /* ViewController.swift in Sources */,
+				58EDE6F92C032644005086EF /* ARManager.swift in Sources */,
+				58EDE6F72C03262D005086EF /* IconButton.swift in Sources */,
+				58EDE6FD2C03269A005086EF /* ARViewController.swift in Sources */,
+				58EDE6FF2C0326B3005086EF /* Constants.swift in Sources */,
+				58EDE6EB2C0325EF005086EF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58EDE70B2C032C93005086EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58EDE70C2C032C93005086EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58EDE6F12C0325F1005086EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58EDE6F22C0325F1005086EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58EDE6F42C0325F1005086EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nano2-cube/Preview Content\"";
+				DEVELOPMENT_TEAM = VR8745VKZG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "indrikla.nano2-cube";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58EDE6F52C0325F1005086EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nano2-cube/Preview Content\"";
+				DEVELOPMENT_TEAM = VR8745VKZG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "indrikla.nano2-cube";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58EDE6E02C0325EF005086EF /* Build configuration list for PBXProject "nano2-cube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EDE6F12C0325F1005086EF /* Debug */,
+				58EDE6F22C0325F1005086EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58EDE6F32C0325F1005086EF /* Build configuration list for PBXNativeTarget "nano2-cube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EDE6F42C0325F1005086EF /* Debug */,
+				58EDE6F52C0325F1005086EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58EDE6DD2C0325EF005086EF /* Project object */;
+}
