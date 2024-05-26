@@ -24,11 +24,11 @@ struct ContentView: View {
 
             Image("targetPoint")
 
-            VStack {
+            HStack {
                 Text(String(drawingService.geometryNodes.count) + " Cubes")
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 Spacer()
-                HStack(alignment: .center, spacing: 40) {
+                VStack(alignment: .center, spacing: 40) {
 
                     IconButton(imageName: "shoot", iconSize: 35, buttonFill: true, label: "shoot") {
                     }

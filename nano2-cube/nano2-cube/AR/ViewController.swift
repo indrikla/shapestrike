@@ -97,13 +97,11 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDele
             self.createParticleEffect(at: contact.nodeB.position)
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                 contact.nodeB.removeFromParentNode()
-//                cubeRemainder -= 1
             }
         } else if contact.nodeA.physicsBody?.categoryBitMask == 2 && contact.nodeB.physicsBody?.categoryBitMask == 1 {
             self.createParticleEffect(at: contact.nodeA.position)
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                 contact.nodeA.removeFromParentNode()
-//                cubeRemainder -= 1
             }
         }
     }
