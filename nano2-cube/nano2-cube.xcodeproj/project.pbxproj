@@ -18,7 +18,6 @@
 		58EDE7012C0326D2005086EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EDE7002C0326D2005086EF /* AppDelegate.swift */; };
 		58EDE7032C032704005086EF /* DrawingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EDE7022C032704005086EF /* DrawingService.swift */; };
 		58EDE70D2C032C93005086EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EDE70B2C032C93005086EF /* Main.storyboard */; };
-		58EDE7162C033B0D005086EF /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 58EDE7142C033B0D005086EF /* Explosion.sks */; };
 		58EDE7172C033B0D005086EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EDE7152C033B0D005086EF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 		58EDE7002C0326D2005086EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58EDE7022C032704005086EF /* DrawingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingService.swift; sourceTree = "<group>"; };
 		58EDE70C2C032C93005086EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Nano/WandARaw/WandARaw/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		58EDE7142C033B0D005086EF /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 		58EDE7152C033B0D005086EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +51,6 @@
 		58EDE6DC2C0325EF005086EF = {
 			isa = PBXGroup;
 			children = (
-				58EDE7142C033B0D005086EF /* Explosion.sks */,
 				58EDE7152C033B0D005086EF /* Assets.xcassets */,
 				58EDE6E72C0325EF005086EF /* nano2-cube */,
 				58EDE6E62C0325EF005086EF /* Products */,
@@ -193,7 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				58EDE6F02C0325F1005086EF /* Preview Assets.xcassets in Resources */,
-				58EDE7162C033B0D005086EF /* Explosion.sks in Resources */,
 				58EDE6ED2C0325F1005086EF /* Assets.xcassets in Resources */,
 				58EDE70D2C032C93005086EF /* Main.storyboard in Resources */,
 				58EDE7172C033B0D005086EF /* Assets.xcassets in Resources */,
